@@ -3,6 +3,9 @@ import { RouteRecordRaw } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import HomeRecordingPage from '../pages/HomeRecordingPage.vue'
 import HomeMeetingPage from '../pages/HomeMeetingPage.vue'
+import EventsPage from '../pages/EventsPage.vue'
+import EventPage from '../pages/EventPage.vue'
+import EventRegisterPage from '../pages/EventRegisterPage.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,6 +23,18 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/home/meeting',
     component: HomeMeetingPage,
+  },
+  {
+    path: '/events',
+    component: EventsPage,
+  },
+  {
+    path: '/events/event',
+    component: EventPage,
+  },
+  {
+    path: '/events/event/register',
+    component: EventRegisterPage,
   },
 ]
 

@@ -17,6 +17,17 @@
               <ion-label>Home</ion-label>
             </ion-item>
           </ion-menu-toggle>
+          <ion-menu-toggle :auto-hide="false">
+            <ion-item
+              router-direction="root"
+              router-link="/events"
+              lines="none"
+              :detail="false"
+              class="hydrated"
+            >
+              <ion-label>Events</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
         </ion-list>
       </ion-content>
     </ion-menu>
@@ -25,6 +36,7 @@
       <ion-toolbar>
         <ion-buttons slot="start">
           <ion-button router-link="/home">Home</ion-button>
+          <ion-button router-link="/events">Events</ion-button>
         </ion-buttons>
       </ion-toolbar>
     </ion-footer>
