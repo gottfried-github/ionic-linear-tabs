@@ -1,0 +1,7 @@
+{
+  "name": "nav-linear",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
