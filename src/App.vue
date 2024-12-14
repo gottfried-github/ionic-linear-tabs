@@ -7,24 +7,12 @@
           <ion-note>michael@gmail.com</ion-note>
 
           <ion-menu-toggle :auto-hide="false">
-            <ion-item
-              router-direction="root"
-              router-link="/home"
-              lines="none"
-              :detail="false"
-              class="hydrated"
-            >
+            <ion-item router-link="/home" lines="none" :detail="false" class="hydrated">
               <ion-label>Home</ion-label>
             </ion-item>
           </ion-menu-toggle>
           <ion-menu-toggle :auto-hide="false">
-            <ion-item
-              router-direction="root"
-              router-link="/events"
-              lines="none"
-              :detail="false"
-              class="hydrated"
-            >
+            <ion-item router-link="/events" lines="none" :detail="false" class="hydrated">
               <ion-label>Events</ion-label>
             </ion-item>
           </ion-menu-toggle>
