@@ -3,6 +3,7 @@
     <ion-header :translucent="true">
       <ion-toolbar>
         <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title>Home</ion-title>
@@ -25,6 +26,7 @@ import {
   IonToolbar,
   IonMenuButton,
   IonButton,
+  IonBackButton,
 } from '@ionic/vue'
 </script>
 

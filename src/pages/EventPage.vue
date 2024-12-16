@@ -3,6 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title>Events</ion-title>
@@ -23,5 +24,6 @@ import {
   IonToolbar,
   IonMenuButton,
   IonButton,
+  IonBackButton,
 } from '@ionic/vue'
 </script>

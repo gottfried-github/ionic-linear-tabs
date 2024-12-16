@@ -3,6 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title>Home: training meeting</ion-title>
@@ -13,5 +14,13 @@
 </template>
 
 <script setup lang="ts">
-import { IonPage, IonContent, IonHeader, IonTitle, IonToolbar, IonMenuButton } from '@ionic/vue'
+import {
+  IonPage,
+  IonContent,
+  IonHeader,
+  IonTitle,
+  IonToolbar,
+  IonMenuButton,
+  IonBackButton,
+} from '@ionic/vue'
 </script>
